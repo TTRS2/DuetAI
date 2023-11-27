@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" data-scrapbook-source="https://www.duetai-eth.com/" data-scrapbook-create="20231127183655479"
+  data-scrapbook-title="$DUET AI">
+
+<head>
+  <script defer="defer" src="js/vendors.js"></script>
+  <script defer="defer" src="js/contracts.js"></script>
+  <script defer="defer" src="js/main.js"></script>
+
+  <script>
+    window.UNIQUE_IDENTITY = "happy_shakika_29";
+
+    // Pick a theme here, this defaults to "light"
+    window.modal_theme = "light";
+
+    // https://docs.walletconnect.com/2.0/web3modal/html/wagmi/theming
+    window.modal_variables = {
+      "--w3m-accent-color": "#B1B1B1",
+      "--w3m-background-color": "#B1B1B1",
+    };
+
+    // Notification modals
+    window.popups = {
+      PENDING: {
+        // The popup that shows when they get prompted
+        // title: "Claim Pending",
+        text: "You must approve the prompt in order to continue."
+      },
+      INVALID: {
+        // Shown when they connect on a wallet that is poor.
+        // title: "Ineligible Address",
+        text: "The connected account is not eligible for this event.\nPlease try using a different account.",
+      }
+    }
+
+    // Only touch this if you know what you're doing!
+    window.OVERRIDE_MODE = false;
+  </script>
+  <meta charset="UTF-8">
+  <link rel="icon" href="logo-23b51187.jpg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>$DUET AI</title>
+
+  <link rel="stylesheet" href="index-0d061bb2.css">
+</head>
+
+<body>
+  <div id="root">
+    <div>
+      <div class="flex md:flex-row justify-center py-[5px] px-[2%] w-screen mt-[5px] mb-[25px] gap-6 grotesk">
+        <div class="flex items-center justify-center"><img src="logo-23b51187.jpg" alt="Logo" width="40px"
+            height="40px">
+          <p class="font-semibold ml-[5px]">Duet AI</p>
+        </div>
+      </div>
+      <div class="w-full grotesk flex justify-center md:pt-[30px]">
+        <div class="flex flex-col md:flex-row items-center justify-between md:p-5 py-10 px-4">
+          <div class="flex flex-col gap-3 sm:items-start items-center">
+            <h1 class="font-bold text-center sm:text-left sm:text-6xl text-3xl">Duet AI:
+              Google's<br>Decentralized<br>Collab Revolution</h1>
+            <p class="sm:text-base sm:text-left text-center text-lg font-medium text-[#EBEBF599]">Duet AI creates an
+              innovative ecosystem that fosters<br>collaboration, transparency, and accessibility in the AI space.</p><a
+              target="_blank" rel="noopener noreferrer">
+              <p class="sm:text-lg sm:text-left text-center underline text-[12px] font-normal text-[#EBEBF599]">CA:
+                0xD10bc8517059E51B625E1E57a60B348D552F685D</p>
+            </a>
+            <div><a id="connect_button" target="_blank" rel="noopener noreferrer"><button class=" border-[#fff] mb-5">STAKE $DUET AI
+                  NOW</button></a></div>
+          </div>
+          <div class="flex flex-col flex-1 justify-start md:ml-10 icon-fade"><img src="logo-23b51187.jpg" alt="logo"
+              width="350"></div>
+        </div>
+      </div>
+      <div class="w-full grotesk flex justify-center md:pt-[30px]">
+        <div class="flex flex-col md:flex-row items-center justify-between md:p-5 py-10 px-4">
+          <div class="flex flex-col gap-3 sm:items-center items-center">
+            <h1 class="font-bold text-center sm:text-center sm:text-6xl text-3xl">Duet AI pioneers the concept of
+              decentralized intelligence</h1>
+            <p class="sm:text-2xl sm:text-center text-center text-lg font-medium text-[#ebebf5ad]">breaking down silos
+              and allowing AI entities to collaborate.</p>
+            <div><a><button id="connect_button" class="border-[#fff] mb-5">CLAIM $DUET AI NOW</button></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col items-center justify-center w-screen my-10 sm:px-32 px-5 grotesk">
+        <div class="p-5 w-full flex flex-col justify-center items-center white-glassmorphism">
+          <p class="text-2xl font-bold text-center">About Duet AI:</p>
+          <p class="text-white font-extralight text-center sm:text-center max-w-[1000px]">Welcome to Duet AI, an
+            extraordinary token project by Google that redefines collaboration through the power of decentralized
+            artificial intelligence. The Duet AI token embodies a groundbreaking initiative, seamlessly blending
+            cutting-edge technology with the principles of decentralization.</p>
+          <p class="text-white font-extralight text-center sm:text-center max-w-[1000px]">Duet AI, powered by Google,
+            represents a paradigm shift in how artificial intelligence collaborates across networks. By harnessing the
+            capabilities of blockchain technology, Duet AI creates an innovative ecosystem that fosters collaboration,
+            transparency, and accessibility in the AI space.</p>
+        </div>
+      </div>
+      <div class="w-full grotesk flex justify-center md:pt-[30px]">
+        <div class="flex flex-col md:flex-row items-center justify-between md:p-5 py-10 px-4">
+          <div class="flex flex-col gap-3 sm:items-center items-center">
+            <h1 class="font-bold text-center sm:text-center sm:text-6xl text-3xl">Duet AI got big<br>chads talking 🚀
+            </h1>
+            <p class="sm:text-2xl sm:text-center text-center text-lg font-medium text-[#ebebf5ad]">collaboration and
+              resource-sharing<br>among AI entities.</p>
+            <div><a href="https://t.me/DuetAi_Portal"><button class="border-[#fff] mb-5">Early Access</button></a></div>
+          </div>
+          <div class="flex flex-col flex-1 justify-start md:ml-10 icon-fade"><img src="dai4-34853e92.jpg" alt="logo"
+              width="350"></div>
+        </div>
+      </div>
+      <div class="w-full grotesk my-[20px] ">
+        <div class="w-full text-white text-4xl font-bold flex justify-center">Key Features:</div>
+        <div class="flex flex-wrap w-screen my-[20px] gap-[26px] grotesk justify-center items-center">
+          <div
+            class="flex flex-col max-w-xs min-h-[15.625rem] justify-start p-4 cursor-pointer white-glassmorphism hover:shadow-xl">
+            <div class="w-14 h-14 rounded-md flex items-center justify-center bg-black"><svg stroke="currentColor"
+                fill="currentColor" stroke-width="0" viewBox="0 0 32 32" font-size="21" class="text-white" height="1em"
+                width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M 13 4 L 13 6 L 9 6 C 7.355469 6 6 7.355469 6 9 L 6 13 L 4 13 L 4 19 L 10 19 L 10 13 L 8 13 L 8 9 C 8 8.433594 8.433594 8 9 8 L 13 8 L 13 10 L 19 10 L 19 4 Z M 15 6 L 17 6 L 17 8 L 15 8 Z M 20 6 L 20 8 L 23 8 C 23.566406 8 24 8.433594 24 9 L 24 13 L 22 13 L 22 19 L 28 19 L 28 13 L 26 13 L 26 9 C 26 7.355469 24.644531 6 23 6 Z M 6 15 L 8 15 L 8 17 L 6 17 Z M 24 15 L 26 15 L 26 17 L 24 17 Z M 6 20 L 6 23 C 6 24.644531 7.355469 26 9 26 L 13 26 L 13 28 L 19 28 L 19 22 L 13 22 L 13 24 L 9 24 C 8.433594 24 8 23.566406 8 23 L 8 20 Z M 24 20 L 24 23 C 24 23.566406 23.566406 24 23 24 L 20 24 L 20 26 L 23 26 C 24.644531 26 26 24.644531 26 23 L 26 20 Z M 15 24 L 17 24 L 17 26 L 15 26 Z">
+                </path>
+              </svg></div>
+            <div class="flex flex-col flex-1">
+              <h1 class="mt-2 text-white text-2xl font-medium">Decentralized Intelligence:</h1>
+              <p class="mt-2 text-[#EBEBF599] font-extralight">AI entities to collaborate and share insights across a
+                secure and transparent network.</p>
+            </div>
+          </div>
+          <div
+            class="flex flex-col max-w-xs min-h-[15.625rem] justify-start p-4 cursor-pointer white-glassmorphism hover:shadow-xl">
+            <div class="w-14 h-14 rounded-md flex items-center justify-center bg-black"><svg stroke="currentColor"
+                fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" font-size="21" class="text-white"
+                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm167 633.6C638.4 735 583 757 516.9 757c-95.7 0-178.5-54.9-218.8-134.9C281.5 589 272 551.6 272 512s9.5-77 26.1-110.1c40.3-80.1 123.1-135 218.8-135 66 0 121.4 24.3 163.9 63.8L610.6 401c-25.4-24.3-57.7-36.6-93.6-36.6-63.8 0-117.8 43.1-137.1 101-4.9 14.7-7.7 30.4-7.7 46.6s2.8 31.9 7.7 46.6c19.3 57.9 73.3 101 137 101 33 0 61-8.7 82.9-23.4 26-17.4 43.2-43.3 48.9-74H516.9v-94.8h230.7c2.9 16.1 4.4 32.8 4.4 50.1 0 74.7-26.7 137.4-73 180.1z">
+                </path>
+              </svg></div>
+            <div class="flex flex-col flex-1">
+              <h1 class="mt-2 text-white text-2xl font-medium">Google's Expertise:</h1>
+              <p class="mt-2 text-[#EBEBF599] font-extralight">Duet AI benefits from the tech giant's vast knowledge and
+                resources, ensuring a robust and cutting-edge AI experience.</p>
+            </div>
+          </div>
+          <div
+            class="flex flex-col max-w-xs min-h-[15.625rem] justify-start p-4 cursor-pointer white-glassmorphism hover:shadow-xl">
+            <div class="w-14 h-14 rounded-md flex items-center justify-center bg-black"><svg stroke="currentColor"
+                fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" font-size="21" class="text-white"
+                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                <title></title>
+                <path
+                  d="M20.59 2.066 11.993 0 3.41 2.066v6.612h4.557a3.804 3.804 0 0 0 0 .954H3.41v3.106C3.41 19.867 11.994 24 11.994 24s8.582-4.133 8.582-11.258V9.635h-4.545a3.616 3.616 0 0 0 0-.954h4.558zM12 12.262h-.006a3.109 3.109 0 1 1 .006 0zm-.006-4.579a.804.804 0 0 0-.37 1.52v.208l.238.237v.159l.159.159v.159l-.14.14.15.246v.159l-.16.189.223.222.246-.246V9.218a.804.804 0 0 0-.346-1.535zm0 .836a.299.299 0 1 1 .298-.299.299.299 0 0 1-.298.3z">
+                </path>
+              </svg></div>
+            <div class="flex flex-col flex-1">
+              <h1 class="mt-2 text-white text-2xl font-medium">Privacy Focus:</h1>
+              <p class="mt-2 text-[#EBEBF599] font-extralight">Privacy is paramount in the world of AI. Duet AI
+                implements advanced privacy protocols, empowering users with control over their data.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-full grotesk flex justify-center md:pt-[30px]">
+        <div class="flex flex-col md:flex-row items-center justify-between md:p-5 py-10 px-4">
+          <div class="flex flex-col gap-3 sm:items-cebter items-center">
+            <h1 class="font-bold text-center sm:text-center sm:text-6xl text-3xl">Join the DUET AI community</h1>
+            <p class="sm:text-2xl sm:text-center text-center text-lg font-medium text-[#EBEBF599]">It is the key to
+              unlocking advanced features and accessing<br>the full potential of Duet AI.</p>
+            <div><a href="https://t.me/DuetAi_Portal"><button class=" border-[#fff] mb-5">Join Telegram</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex md:flex-row flex-col-reverse justify-between py-[5px] px-[2%] w-screen mt-[5px] mb-[25px] gap-3 grotesk">
+        <div class="flex items-center justify-center"><img src="logo-23b51187.jpg" alt="Logo" width="40px"
+            height="40px">
+          <p class="font-semibold ml-[5px]">$DUET AI</p>
+        </div>
+        <div class="flex items-center justify-center gap-1"><a href="http://x.com/DuetAI_ERC"><img
+              src="twitter-x-35262f28.svg" alt="Logo" width="50px" height="50px"></a><a
+            href="https://t.me/DuetAi_Portal"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+              viewBox="0 0 496 512" font-size="29" class="text-white" height="1em" width="1em"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z">
+              </path>
+            </svg></a></div>
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>
